@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "tags": [
+        "java",
+        "regex"
+      ],
+      "owner": {
+        "reputation": 8636,
+        "user_id": 426493,
+        "user_type": "registered",
+        "accept_rate": 72,
+        "profile_image": "https://www.gravatar.com/avatar/d5611bf4165ba8f4806886e2877bda48?s=128&d=identicon&r=PG",
+        "display_name": "ab11",
+        "link": "https://stackoverflow.com/users/426493/ab11"
+      },
+      "is_answered": false,
+      "view_count": 1,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1523565300,
+      "creation_date": 1523565300,
+      "question_id": 49805448,
+      "link": "https://stackoverflow.com/questions/49805448/regex-to-capture-a-word-following-another-word",
+      "title": "Regex to capture a word following another word?"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 300,
+  "quota_remaining": 282
+}

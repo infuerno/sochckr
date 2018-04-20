@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "tags": [
+        "mysql",
+        "optimization"
+      ],
+      "owner": {
+        "reputation": 483,
+        "user_id": 4508728,
+        "user_type": "registered",
+        "accept_rate": 80,
+        "profile_image": "https://i.stack.imgur.com/nTdeV.png?s=128&g=1",
+        "display_name": "Imaginaroom",
+        "link": "https://stackoverflow.com/users/4508728/imaginaroom"
+      },
+      "is_answered": false,
+      "view_count": 32,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1513285813,
+      "creation_date": 1513238117,
+      "last_edit_date": 1513284887,
+      "question_id": 47808414,
+      "link": "https://stackoverflow.com/questions/47808414/mysql-big-limit-number-versus-no-limit",
+      "title": "MySQL big limit number versus no limit",
+      "body": "<p>I was wondering what would be faster and what's the tradeoffs of using one or the other query?</p>\n\n<pre><code>SELECT * FROM table WHERE somecolumn = 'something' LIMIT 999;\n</code></pre>\n\n<p>vs.</p>\n\n<pre><code>SELECT * FROM table WHERE somecolumn = 'something';\n</code></pre>\n\n<p>Now, considering that the results of the query will never return more than a couple of hundreds of rows, does using <code>LIMIT 999</code> makes some significate performance impact or not?</p>\n\n<p>I'm looking into this option as in my project I will have some kind of option for a user to limit results as he'd like, and he can leave limit empty to show all, so it's easier for me to leave LIMIT part of the query and then just to change the number. </p>\n\n<p>Now, the table is really big, ranging from couple of hundreds of thousands to couple of millions rows.\nThe exact quesy looks something like:</p>\n\n<pre><code>SELECT  SUM(revenue) AS cost,\n        IF(ISNULL(headline) OR  headline = '', 'undefined', headline\n           ) AS headline\n    FROM  `some_table`\n    WHERE  ((date &gt;= '2017-01-01')\n       AND  (date &lt;= '2017-12-31')\n           )\n      AND          -- (sic)\n    GROUP BY  `headline`\n    ORDER BY  `cost` DESC \n</code></pre>\n\n<p>As I said before, this query will never return more than about a hundred rows.</p>\n"
+    }
+  ],
+  "has_more": false,
+  "quota_max": 10000,
+  "quota_remaining": 9987
+}

@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "tags": [
+        "c#",
+        "winforms",
+        "type-conversion",
+        "decimal",
+        "opacity"
+      ],
+      "owner": {
+        "reputation": 942,
+        "user_id": 8,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c7ec7dec48168d2a7d792e2b0acc78d1?s=128&d=identicon&r=PG",
+        "display_name": "Eggs McLaren",
+        "link": "https://stackoverflow.com/users/8/eggs-mclaren"
+      },
+      "is_answered": true,
+      "view_count": 35224,
+      "protected_date": 1442965259,
+      "accepted_answer_id": 7,
+      "answer_count": 13,
+      "community_owned_date": 1351701767,
+      "score": 549,
+      "last_activity_date": 1519317613,
+      "creation_date": 1217540572,
+      "last_edit_date": 1506491579,
+      "post_id": 4,
+      "link": "https://stackoverflow.com/questions/4/while-applying-opacity-to-a-form-should-we-use-a-decimal-or-a-double-value",
+      "title": "While applying opacity to a form, should we use a decimal or a double value?"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 300,
+  "quota_remaining": 281
+}
